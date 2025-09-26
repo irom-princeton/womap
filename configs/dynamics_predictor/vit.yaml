@@ -1,0 +1,4 @@
+_target_: src.models.vision_transformer.vit_predictor
+predictor_embed_dim: ${shared.pred_emb_dim}
+depth: 4 # 12 
+action_dim: 6

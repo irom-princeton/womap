@@ -1,0 +1,9 @@
+{
+    "environment_type": "pybullet",
+    "environment": "kitchen_7_1_4_12",
+    "experiments": ["example-vlm-test"],
+    "models": [
+        {"planner": "vlm-only", "planner_config": {"n_prop": 1, "query_mode": "atomic-base"}, "world_model": null},
+        {"planner": "wm-vlm", "planner_config": {"reint_thresh": 0.3, "n_prop": 3, "query_mode": "atomic-base"}, "world_model": "50-500"}
+    ]
+}

@@ -1,0 +1,5 @@
+_target_: src.models.vision_transformer.vit_small
+img_size: 
+  - ${shared.img_resize_shape}
+  - ${shared.img_resize_shape}
+patch_size: 14

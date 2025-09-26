@@ -1,0 +1,2 @@
+_target_: src.models.encoder.clip.CLIPEncoder 
+name: "ViT-L/14"

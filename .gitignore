@@ -1,0 +1,42 @@
+# data and cache files
+**/*.egg-info
+**/__pycache__
+**/cache
+**/data
+**/experiment_configs
+**/experiment_outputs
+**/experiments
+**/figures
+**/logs
+**/notes
+**/outputs
+**/renders
+**/slurm_outputs
+**/slurm_scripts
+**/test_inputs
+**/test_outputs
+**/tmp_outputs
+**/wandb
+
+
+# Platform-dependent files
+*.DS_Store
+
+# media files
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+*.MOV
+*.mp4
+*.mov
+*.pdf
+
+# data files
+*.npy
+*.ply
+
+# other files
+openai_key.json

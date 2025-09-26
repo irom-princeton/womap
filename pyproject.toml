@@ -1,0 +1,23 @@
+[project]
+name = "wmap"
+version = "0.1.1"
+requires-python = ">=3.8"
+
+dependencies=[
+    "hydra-core",
+    "timm",
+    "transformers==4.40.0",
+    "regex",
+    "tqdm",
+    "einops",
+    "gdown",
+    "matplotlib",
+    "numpy",
+    "omegaconf,
+    "pillow",
+    "roma",
+    "sentence-transformers",
+]
+
+[tool.setuptools.packages.find]
+include = ["wmap*"]

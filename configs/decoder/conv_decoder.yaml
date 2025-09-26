@@ -1,0 +1,5 @@
+_target_: src.models.decoder.transposed_conv.TransposedConvDecoder
+observation_shape: [3, ${shared.img_resize_shape}, ${shared.img_resize_shape}]
+depth: 64
+kernel_size: 5
+stride: 3

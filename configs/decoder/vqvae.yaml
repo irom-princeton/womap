@@ -1,0 +1,6 @@
+_target_: src.models.decoder.vqvae.VQVAE
+channel: 768
+n_embed: 2048 # quantize_n_embed
+n_res_block: 4
+n_res_channel: 28
+quantize: False

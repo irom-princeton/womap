@@ -1,0 +1,10 @@
+_target_: src.models.vision_transformer.vit_output_predictor
+conf_pred_output_dim: 1
+output_dim: 1
+predict_bbox: false # true
+predictor_embed_dim: ${shared.pred_emb_dim}
+cond_dim: ${shared.cond_dim}
+lang_conditioning: ${shared.lang_cond}
+output_activation: null
+depth: 2
+num_heads: 3

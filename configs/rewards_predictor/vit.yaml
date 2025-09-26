@@ -1,0 +1,6 @@
+_target_: src.models.vision_transformer.vit_output_predictor
+conf_pred_output_dim: 1
+predictor_embed_dim: ${shared.pred_emb_dim}
+output_activation: sigmoid
+depth: 2
+num_heads: 3
