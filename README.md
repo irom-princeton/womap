@@ -30,74 +30,9 @@
   <div align="center"></div>
 </p>
 
+## WoMAP
+We introduce <i>World Models for Active Perception</i> (<strong>WoMAP</strong>): a recipe for training open-vocabulary object localization policies that: (i) uses a Gaussian Splatting-based real-to-sim-to-real pipeline for scalable data generation without the need for expert demonstrations, (ii) distills dense rewards signals from open-vocabulary object detectors, and (iii) leverages a latent world model for dynamics and rewards prediction to ground high-level action proposals at inference time.
 
-<section class="hero section">
-        <div class="hero-body">
-            <div class="container is-max-widescreen has-text-centered">
-                <h1 class="title is-2 publication-title">WoMAP: World Models For Embodied <br /> Open-Vocabulary Object
-                    Localization
-                </h1>
-
-                <!-- ===== AUTHORS (three rows, no underscores) ===== -->
-
-                <div class="is-size-5 publication-authors">
-                    <div>
-                        <span class="author-block"><a
-                                href="https://tenny-yinyijun.github.io/">Tenny&nbsp;Yin*</a></span>,
-                        <span class="author-block"><a href="https://may0mei.github.io/">Zhiting&nbsp;Mei</a></span>,
-                        <span class="author-block"><a href="#">Tao&nbsp;Sun</a></span>,
-                        <span class="author-block"><a href="https://lihzha.github.io/">Lihan&nbsp;Zha</a></span>,
-                        <span class="author-block"><a
-                                href="https://www.linkedin.com/in/zhou-emily/">Emily&nbsp;Zhou<sup>+</sup></a></span>,
-                    </div>
-                    <div>
-                        <span class="author-block"><a
-                                href="https://www.linkedin.com/in/jeremy-bao/">Jeremy&nbsp;Bao<sup>+</sup></a></span>,
-                        <span class="author-block"><a
-                                href="https://www.linkedin.com/in/miyu-yamane/">Miyu&nbsp;Yamane<sup>+</sup></a></span>,
-                        <span class="author-block"><a href="#">Ola&nbsp;Shorinwa*</a></span>,
-                        <span class="author-block"><a
-                                href="https://irom-lab.princeton.edu/majumdar/">Anirudha&nbsp;Majumdar</a></span>
-                    </div>
-                </div>
-
-                <div>
-                    <sup>&#42;</sup>Equal Contribution.
-                    <sup>+</sup>Authors contributed equally.
-                </div>
-
-                <!-- ===== RESOURCE ICONS ===== -->
-                <div class="publication-links">
-                    <a href="static/paper.pdf" class="external-link button is-normal is-rounded is-dark" target="_blank"
-                        rel="noopener">
-                        <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
-                    </a>
-                    <a href="https://arxiv.org/abs/2506.01600" class="external-link button is-normal is-rounded is-dark"
-                        target="_blank" rel="noopener">
-                        <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=i1qSlALio-o"
-                        class="external-link button is-normal is-rounded is-dark" target="_blank" rel="noopener">
-                        <span class="icon"><i class="fab fa-youtube"></i></span><span>Video</span>
-                    </a>
-                    <a href="#" class="external-link button is-normal is-rounded is-dark" target="_blank"
-                        rel="noopener">
-                        <span class="icon"><i class="fab fa-github"></i></span><span>Code (Coming Soon!)</span>
-                    </a>
-                </div>
-
-                <!-- ===== LAB LOGO ===== -->
-
-                <figure class="image is-inline-block lab-logo">
-                    <img src="static/irom_princeton.png" alt="IROM Lab logo" style="max-width:500px;">
-                </figure>
-
-            </div>
-        </div>
-    </section>
-
-# Active Perception World Models
-This repo trains a world model for active perception.
 
 ## Getting Started
 
